@@ -1,7 +1,7 @@
 import Button from "@/components/button/Button";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-export default function () {
+export default function Home() {
   const [count, setCount] = useState(0);
   const [notNeg, setNeg] = useState(true);
 
